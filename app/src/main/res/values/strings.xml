@@ -1,0 +1,85 @@
+<!--
+  ~ Created by Gaurav on 10/11/16 1:25 PM
+  ~ Copyright (c) 2016. All rights reserved
+  ~
+  ~ Last Modified 9/11/16 7:51 PM
+  -->
+
+<resources>
+    <string name="app_name">CardStel</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required"> %1$s is required.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="all_event_business">BUSINESS CARD</string>
+    <string name="all_event_invite">Invite To Event</string>
+    <string name="all_create_buzz">Create Buzz</string>
+    <string name="all_faq">FAQ</string>
+    <string name="all_rateUs">Rate Us</string>
+    <string name="all_suggest_us">Suggest Us</string>
+    <string name="all_no_cards">You have no card please create one.</string>
+    <string name="all_create_card">Create Card</string>
+    <string name="all_hint_mobile">Please enter mobile no.</string>
+    <string name="signup_password">Please enter your password</string>
+    <string name="all_pleaseEnter">Please enter your %S</string>
+    <string name="signup_create_account">Create Account</string>
+    <string name="all_mobileNo">Mobile no</string>
+    <string name="all_password">Password</string>
+
+    <string name="error_no_internet">No internet</string>
+    <string name="loading_msg">Please wait...</string>
+
+    .....................................<!--User Account-->......................................................................
+    <string name="user_accout_settings">ACCOUNT SETTINGS</string>
+    <string name="user_history">HISTORY</string>
+    <string name="user_followers">FOLLOWERS</string>
+    <string name="user_following">FOLLOWING</string>
+    <string name="user_sign_out">SIGN OUT</string>
+
+    .....................................<!--Card Description-->................................................................
+
+    <string name="card_digital_summary">Digital Summary</string>
+    <string name="card_tag">Tags</string>
+    <string name="card_experience">Experience</string>
+    <string name="card_education">Education</string>
+    <string name="card_skill">Skills</string>
+    <string name="card_website">Websites</string>
+    <string name="card_followers">Followers</string>
+    <string name="card_follwing">Following</string>
+
+    <string name="card_user_personal_summary">Personal Summary</string>
+    <string name="card_user_intrest">Intrests</string>
+    <string name="card_user_birthday">BirthDay</string>
+    <string name="card_user_gender">Gender</string>
+    <string name="card_user_language">Language</string>
+    <string name="card_user_aboutUs">About User Name</string>
+    <string name="card_user_favourite">Favourite Quotes</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    ...........................................SignIn Screen..................................................................
+
+    <string name="signin_appName">Cardstel</string>
+    <string name="signin_titleappName">Creating your digital Identity !</string>
+    <string name="signin_mobileNumber">Please enter your mobile no.</string>
+    <string name="signin_password">Please enter your password</string>
+    <string name="signin_signin">Sign in</string>
+    <string name="signin_createAccount">Create Account</string>
+
+    ............................................SignUp Page....................................................................
+
+    <string name="signup_firstName">Please Enter Your First Name </string>
+    <string name="signup_lastName">Please Enter Your Last Name </string>
+    <string name="signup_email">Please Enter Your Email account</string>
+    <string name="signup_update">Update</string>
+</resources>

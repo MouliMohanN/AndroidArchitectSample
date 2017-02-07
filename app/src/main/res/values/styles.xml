@@ -1,0 +1,86 @@
+<!--
+  ~ Created by Gaurav on 10/11/16 1:25 PM
+  ~ Copyright (c) 2016. All rights reserved
+  ~
+  ~ Last Modified 9/11/16 7:51 PM
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="Base.AppTheme" />
+
+    <style name="AppTheme.OverlapSystemBar" parent="Base.AppTheme" />
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    ................................SignIn Page Style....................................................................
+
+    <style name="TIL" parent="Widget.Design.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SignIn_TIL" parent="TIL">
+        <item name="android:layout_marginRight">@dimen/sixteenDp</item>
+        <item name="android:layout_marginLeft">@dimen/sixteenDp</item>
+    </style>
+
+    <style name="EditTextField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/et_height_normal</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SignIn_ET" parent="EditTextField">
+        <item name="android:layout_marginBottom">@dimen/eightDP</item>
+        <item name="android:layout_marginTop">@dimen/eightDP</item>
+        <item name="android:paddingTop">@dimen/eightDP</item>
+        <item name="android:paddingBottom">@dimen/eightDP</item>
+    </style>
+
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/et_height_normal</item>
+    </style>
+    <style name="SignIn_BT" parent="Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sixteenDp</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SignIn_TV" parent="TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+..........................................SignUp Pages..................................................................
+
+<style name="SignUp_TIL" parent="TIL">
+
+    <item name="android:layout_marginRight">@dimen/sixteenDp</item>
+    <item name="android:layout_marginLeft">@dimen/sixteenDp</item>
+</style>
+
+    <style name="SignUp_ET" parent="EditTextField">
+        <item name="android:layout_marginBottom">@dimen/eightDP</item>
+        <item name="android:layout_marginTop">@dimen/eightDP</item>
+        <item name="android:paddingTop">@dimen/eightDP</item>
+        <item name="android:paddingBottom">@dimen/eightDP</item>
+    </style>
+
+</resources>

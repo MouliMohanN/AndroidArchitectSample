@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Gaurav on 10/11/16 1:25 PM
+  ~ Copyright (c) 2016. All rights reserved
+  ~
+  ~ Last Modified 8/11/16 2:47 PM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_invite"
+        android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/menu_item_create_business"
+            android:icon="@drawable/ic_buzz"
+            android:title="@string/all_event_business" />
+    <item
+        android:id="@+id/menu_item_create_buzz"
+        android:icon="@drawable/ic_buzz"
+        android:title="@string/all_create_buzz" />
+    <item
+        android:id="@+id/menu_item_invite"
+        android:icon="@drawable/ic_invite"
+        android:title="@string/all_event_invite" />
+
+    <item
+        android:id="@+id/menu_item_faq"
+        android:icon="@drawable/ic_faq"
+        android:title="@string/all_faq" />
+    <item
+        android:id="@+id/menu_item_rate_us"
+        android:icon="@drawable/ic_rate_us"
+        android:title="@string/all_rateUs" />
+    <item
+        android:id="@+id/menu_item_suggest_us"
+        android:icon="@drawable/ic_suggest_us"
+        android:title="@string/all_suggest_us" />
+</group>
+</menu>
+
+

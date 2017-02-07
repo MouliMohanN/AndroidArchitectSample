@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/user_group_invite"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_item_accout_setting"
+            android:icon="@drawable/ic_buzz"
+            android:title="@string/user_accout_settings" />
+        <item
+            android:id="@+id/menu_item_history"
+            android:icon="@drawable/ic_invite"
+            android:title="@string/user_history" />
+
+        <item
+            android:id="@+id/menu_item_followers"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/user_followers" />
+        <item
+            android:id="@+id/menu_item_following"
+            android:icon="@drawable/ic_rate_us"
+            android:title="@string/user_following" />
+        <item
+            android:id="@+id/menu_item_sign_out"
+            android:icon="@drawable/ic_suggest_us"
+            android:title="@string/user_sign_out" />
+    </group>
+</menu>

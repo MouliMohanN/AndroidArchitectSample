@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Gaurav on 10/11/16 1:25 PM
+  ~ Copyright (c) 2016. All rights reserved
+  ~
+  ~ Last Modified 8/11/16 2:16 PM
+  -->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="grey">#d3d3d3</color>
+</resources>
